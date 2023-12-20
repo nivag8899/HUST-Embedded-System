@@ -35,4 +35,11 @@
   ```bash
   rfcomm -r connect 0 xx:xx:xx:xx:xx:xx 1
   ```
+## 其他想说的
+- README是chatGPT生成的，部分内容可能不像中国话
+- test遇到瓶颈？试一试
+  ```
+  cpufreq-set -g performance
+  ```
+  以及rules.mk中将编译和链接选项均添加臭氧优化（O3）
 
